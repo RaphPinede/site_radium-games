@@ -1,28 +1,47 @@
+/*background du site*/
+body{
+    background-color: black;
+}
+
+/*text radium game haut de page*/
 h1 {
+    text-align: center;
     color: #1dc11d;
     font-weight: 900;
     font-family: MV Boli;
-    background: black;
 }
 
+/*logo haut de page*/
+.logo{
+text-align: center;
+}
+
+/*affiche*/
+.affiche{
+ text-align: center;
+}
+
+/*bouton telecharge*/
 a{text-decoration: none;
     color: inherit;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 .lien{ display: flex;
     margin: auto;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 40px;
     width: fit-content;
-    background-color: #1dc11d;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
     padding: 15px;
 }
 
-.lien:hover{background-color: aquamarine;
+.lien:hover{background-color: rgb(68, 81, 255);
 
 }
 
 img{
-    margin-left: 15px;
+    margin-left: 1px;
 }
